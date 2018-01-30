@@ -9,6 +9,8 @@ import java.util.List;
 /**
  * VM Args: -Xmx20M -XX:MaxDirectMemorySize=10M
  *
+ * 测试直接内存溢出,linux还是出不来,windows可以
+ *
  * @author Worry
  */
 public class DirectOutOfMemory {
